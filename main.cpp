@@ -6,6 +6,7 @@ void homework1()
 {
     //int main(){
 
+
     //declare variables
     float width, length, area, maintCost, totalPumpkinVolume, transportCost, grossProfit, netProfit;
     int pumpkinsPerWidth, pumpkinsPerLength, totalPumpkins, totalTrips = 0;
