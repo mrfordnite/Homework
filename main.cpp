@@ -37,23 +37,23 @@ void homework1()
 
     //Calculate total area of pumpkins and print to screen
     totalPumpkinVolume = (4.0/3) * pi * totalPumpkins;
-    cout << "The volume of all the pumpkins is: " << fixed << setprecision(2) << totalPumpkinVolume << " cu ft" << endl;
+    cout << "The volume of all the pumpkins combined will be: " << fixed << setprecision(2) << totalPumpkinVolume << " cu ft" << endl;
 
     //Calculate total trips and print to screen
     totalTrips = (totalPumpkinVolume / trailerVol) + 0.5;
-    cout << "The total trips to the market will be: " << totalTrips << endl;
+    cout << "The total number of trips to the market will be: " << totalTrips << endl;
 
     //Calculate transportation cost and print to screen
     transportCost = 33.63 * totalTrips;
-    cout << "The transportation cost is: $" << fixed << setprecision(2) << transportCost << endl;
+    cout << "The transportation cost will be: $" << fixed << setprecision(2) << transportCost << endl;
 
     //Calculate gross profit and print to screen
     grossProfit = totalPumpkins * 5.25;
-    cout << "The farmer's gross profit is: $" << fixed << setprecision(2) << grossProfit << endl << endl;
+    cout << "The farmer's gross profit will be: $" << fixed << setprecision(2) << grossProfit << endl << endl;
 
     //Calculate net profit and print to screen
     netProfit = grossProfit - maintCost - transportCost;
-    cout << "The net profit is: $" << fixed << setprecision(2) << netProfit << endl;
+    cout << "The net profit will be: $" << fixed << setprecision(2) << netProfit << endl;
 
     //return 0;
     //}
