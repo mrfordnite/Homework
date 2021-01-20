@@ -59,8 +59,17 @@ void homework1()
     //}
 }
 
+void homework2(){
+    //int main(){
+
+
+
+
+    //return 0;
+    //}
+}
+
 int main() {
     homework1();
-
     return 0;
 }
